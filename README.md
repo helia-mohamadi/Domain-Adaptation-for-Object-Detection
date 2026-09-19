@@ -376,3 +376,178 @@ Every paper is **additionally** tagged with one operational mechanism (column `O
 | 23 | Domain Adaptive Ensemble Learning | 2020 | arXiv | — | FA |
 
 
+## 📙 Family 5 — Teacher-Student based
+*Methods whose core engine is a teacher–student scheme: mean-teacher / temporal ensembling, self-training with pseudo-labels, or knowledge distillation across domains.*
+
+| # | Paper Title | Year | Published In | GitHub | Op. |
+|---|---|---|---|---|:---:|
+| 1 | Prototype-oriented Contrastive Mean-Teacher for Unsupervised Domain Adaptive Object Detection | 2026 | Scientific Reports | — | FA |
+| 2 | Expert-Teacher-Student Collaborative Learning for Domain Adaptive Object Detection | 2026 | CVPR | — | FA |
+| 3 | Mean teacher DETR with Masked Feature Alignment: A Robust Domain Adaptive Detection Transformer Framework | 2024 | AAAI | — | FAR |
+| 4 | Scale-Consistent and Temporally Ensembled Unsupervised Domain Adaptation for Object Detection | 2025 | Sensors | — | FA |
+| 5 | Align and Distill: Unifying and Improving Domain Adaptive Object Detection | 2025 | TMLR | — | FA |
+| 6 | Domain-Invariant Progressive Knowledge Distillation for UAV-Based Object Detection | 2025 | IEEE GRSL | — | FA |
+| 7 | MIC: Masked Image Consistency for Context-Enhanced Domain Adaptation | 2023 | CVPR | [Code](https://github.com/lhoyer/MIC) | FAR |
+| 8 | Contrastive Mean Teacher for Domain Adaptive Object Detectors | 2023 | CVPR | — | FA |
+| 9 | Masked Retraining Teacher-Student Framework for Domain Adaptive Object Detection | 2023 | ICCV | — | FAR |
+| 10 | Progressive Domain Adaptation for Object Detection | 2020 | WACV | — | FA |
+| 11 | Automatic Adaptation of Object Detectors to New Domains Using Self-Training | 2019 | CVPR | — | FA |
+| 12 | SimROD: A Simple Adaptation Method for Robust Object Detection | 2021 | ICCV | — | FA |
+| 13 | Debiased Learning from Naturally Imbalanced Pseudo-Labels | 2022 | CVPR | — | FA |
+| 14 | SSDA-YOLO: Semi-supervised Domain Adaptive YOLO for Cross-Domain Object Detection | 2023 | CVIU | — | FA |
+| 15 | Cross-Domain Weakly-Supervised Object Detection Through Progressive Domain Adaptation | 2018 | CVPR | — | FA |
+| 16 | Transferable Curriculum for Weakly-Supervised Domain Adaptation | 2019 | AAAI | — | FA |
+| 17 | Learning to Discover Knowledge: A Weakly-Supervised Partial Domain Adaptation Approach | 2024 | IEEE TIP | — | FA |
+| 18 | Self-Supervised Domain Adaptation for Computer Vision Tasks | 2019 | IEEE Access | — | FA |
+| 19 | ST3D: Self-training for Unsupervised Domain Adaptation on 3D Object Detection | 2021 | CVPR | [Code](https://github.com/CVMI-Lab/ST3D) | FA |
+| 20 | SPG: Unsupervised Domain Adaptation for 3D Object Detection via Semantic Point Generation | 2021 | ICCV | — | FAR |
+| 21 | Unsupervised Domain Adaptive 3D Detection With Multi-Level Consistency | 2021 | ICCV | — | FA |
+| 22 | UNITE: Unsupervised Video Domain Adaptation with Masked Pre-Training and Collaborative Self-Training | 2024 | CVPR | [Code](https://github.com/reddyav1/unite) | FAR |
+| 23 | Cycle Self-Training for Domain Adaptation | 2021 | NeurIPS | — | FA |
+| 24 | Instance Adaptive Self-Training for Unsupervised Domain Adaptation (IAST) | 2020 | ECCV | [Code](https://github.com/bupt-ai-cz/IAST-ECCV2020) | FA |
+| 25 | Self-training Avoids Using Spurious Features Under Domain Shift | 2020 | NeurIPS | — | FA |
+| 26 | Two-phase Pseudo Label Densification for Self-training based Domain Adaptation | 2020 | ECCV | — | FA |
+| 27 | Gradual Domain Adaptation via Self-Training of Auxiliary Models | 2021 | arXiv | [Code](https://github.com/YBZh/AuxSelfTrain) | FA |
+| 28 | Confidence Regularized Self-Training (CRST) | 2019 | ICCV | [Code](https://github.com/yzou2/CRST) | FA |
+| 29 | Unsupervised Domain Adaptation for Semantic Segmentation via Class-Balanced Self-Training (CBST) | 2018 | ECCV | [Code](https://github.com/yzou2/CBST) | FA |
+| 30 | Asymmetric Tri-training for Unsupervised Domain Adaptation | 2017 | ICML | [Code](https://github.com/ksaito-ut/atda) | FA |
+| 31 | A DIRT-T Approach to Unsupervised Domain Adaptation | 2018 | ICLR | [Code](https://github.com/RuiShu/dirt-t) | FA |
+| 32 | Self-Ensembling for Visual Domain Adaptation | 2018 | ICLR | — | FA |
+| 33 | Mutual Mean-Teaching: Pseudo Label Refinery for UDA on Person Re-identification (MMT) | 2020 | ICLR | [Code](https://github.com/yxgeee/MMT) | FA |
+| 34 | Prototypical Pseudo Label Denoising and Target Structure Learning for Domain Adaptive Semantic Segmentation | 2021 | CVPR | — | FA |
+| 35 | Uncertainty-Aware Pseudo Label Refinery for Domain Adaptive Semantic Segmentation | 2021 | ICCV | — | FA |
+| 36 | Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation | 2020 | IJCV | [Code](https://github.com/layumi/Seg-Uncertainty) | FA |
+| 37 | Do We Really Need to Access the Source Data? Source Hypothesis Transfer (SHOT) | 2020 | ICML | [Code](https://github.com/tim-learn/SHOT) | FA |
+| 38 | Source Data-absent UDA through Hypothesis Transfer and Labeling Transfer (SHOT++) | 2020 | arXiv | [Code](https://github.com/tim-learn/SHOT-plus) | FA |
+| 39 | Learning Invariant Representation with Consistency and Diversity for Semi-supervised Source Hypothesis Transfer (SSHT) | 2021 | arXiv | [Code](https://github.com/Wang-xd1899/SSHT) | FA |
+| 40 | Model Adaptation: Unsupervised Domain Adaptation Without Source Data | 2020 | CVPR | — | FA |
+| 41 | Model Adaptation: Historical Contrastive Learning for UDA without Source Data (HCL) | 2021 | NeurIPS | [Code](https://github.com/jxhuang0508/HCL) | FA |
+| 42 | Cross-Domain Adaptive Teacher for Object Detection | 2022 | CVPR | [Code](https://github.com/facebookresearch/adaptive_teacher) | FA |
+| 43 | Unbiased Mean Teacher for Cross-Domain Object Detection | 2021 | CVPR | — | FA |
+| 44 | Exploring Object Relation in Mean Teacher for Cross-Domain Detection | 2019 | CVPR | — | FA |
+| 45 | SSAL: Synergizing between Self-Training and Adversarial Learning for Domain Adaptive Object Detection | 2021 | NeurIPS | — | FA |
+| 46 | Self-Training and Adversarial Background Regularization for Unsupervised Domain Adaptive One-Stage Object Detection | 2019 | ICCV | — | FA |
+| 47 | Curriculum Self-Paced Learning for Cross-Domain Object Detection | 2019 | arXiv | — | FA |
+| 48 | MetaCorrection: Domain-aware Meta Loss Correction for UDA in Semantic Segmentation | 2021 | CVPR | — | FA |
+| 49 | PixMatch: Unsupervised Domain Adaptation via Pixelwise Consistency Training | 2021 | CVPR | [Code](https://github.com/lukemelas/pixmatch) | FA |
+| 50 | Knowledge Mining and Transferring for Domain Adaptive Object Detection | 2021 | ICCV | — | FA |
+| 51 | Attention Bridging Network for Knowledge Transfer | 2019 | ICCV | — | FA |
+| 52 | UM-Adapt: Unsupervised Multi-Task Adaptation Using Adversarial Cross-Task Distillation | 2019 | ICCV | — | FA |
+| 53 | Few-Shot Image Recognition with Knowledge Transfer | 2019 | ICCV | — | FA |
+| 54 | Cross Domain Object Detection by Target-Perceived Dual Branch Distillation | 2022 | CVPR | — | FA |
+| 55 | DAFormer: Improving Network Architectures and Training Strategies for Domain-Adaptive Semantic Segmentation | 2022 | CVPR | [Code](https://github.com/lhoyer/DAFormer) | FA |
+| 56 | HRDA: Context-Aware High-Resolution Domain-Adaptive Semantic Segmentation | 2022 | ECCV | [Code](https://github.com/lhoyer/HRDA) | FA |
+| 57 | Source-Free Domain Adaptation for Semantic Segmentation | 2021 | CVPR | — | FA |
+| 58 | Generalize Then Adapt: Source-Free Domain Adaptive Semantic Segmentation | 2021 | ICCV | — | FA |
+| 59 | Source-free Video Domain Adaptation by Learning Temporal Consistency (ATCoN) | 2022 | ECCV | [Code](https://github.com/xuyu0010/ATCoN) | FA |
+| 60 | Overcoming Label Noise for Source-free Unsupervised Video Domain Adaptation (CleanAdapt) | 2022 | ICVGIP | [Code](https://github.com/avijit9/CleanAdapt) | FA |
+| 61 | Self-Mutating Network for Domain Adaptive Segmentation in Aerial Images | 2021 | ICCV | — | FA |
+| 62 | Domain Adaptive Video Segmentation via Temporal Consistency Regularization | 2021 | ICCV | — | FA |
+| 63 | Action Segmentation with Joint Self-Supervised Temporal Domain Adaptation (SSTDA) | 2020 | CVPR | [Code](https://github.com/cmhungsteve/SSTDA) | FA |
+| 64 | Self-Ensembling with GAN-based Data Augmentation for Domain Adaptation in Semantic Segmentation | 2019 | ICCV | — | FAR |
+| 65 | Guided Curriculum Model Adaptation and Uncertainty-Aware Evaluation for Semantic Nighttime Image Segmentation | 2019 | ICCV | — | FA |
+| 66 | Constructing Self-motivated Pyramid Curriculums for Cross-Domain Semantic Segmentation | 2019 | ICCV | [Code](https://github.com/lianqing11/pycda) | FA |
+| 67 | Adversarial Learning and Self-Teaching Techniques for Domain Adaptation in Semantic Segmentation | 2019 | arXiv | — | FA |
+| 68 | One-Shot Unsupervised Cross-Domain Detection | 2020 | ECCV | — | FA |
+| 69 | Unsupervised Domain Adaptation for Object Detection via Cross-Domain Semi-Supervised Learning | 2019 | arXiv | — | FA |
+| 70 | Geometry-Aware Self-Training for Unsupervised Domain Adaptation on Object Point Clouds | 2021 | ICCV | — | FA |
+| 71 | Safe Self-Refinement for Transformer-Based Domain Adaptation (SSRT) | 2022 | CVPR | [Code](https://github.com/tsun/SSRT) | FA |
+| 72 | Prior Knowledge Guided Unsupervised Domain Adaptation (KUDA) | 2022 | ECCV | [Code](https://github.com/tsun/KUDA) | FA |
+| 73 | TIDOT: A Teacher Imitation Learning Approach for Domain Adaptation with Optimal Transport | 2021 | IJCAI | — | FA |
+| 74 | Source-free Domain Adaptive Human Pose Estimation | 2023 | ICCV | [Code](https://github.com/davidpengucf/SFDAHPE) | FA |
+| 75 | Train Till You Drop: Towards Stable and Robust Source-free Unsupervised 3D Domain Adaptation | 2024 | ECCV | [Code](https://github.com/valeoai/TTYD) | FA |
+| 76 | GIPSO: Geometrically Informed Propagation for Online Adaptation in 3D LiDAR Segmentation | 2022 | ECCV | [Code](https://github.com/saltoricristiano/gipso-sfouda) | FA |
+| 77 | Exploiting the Intrinsic Neighborhood Structure for Source-free Domain Adaptation | 2021 | NeurIPS | [Code](https://github.com/Albert0147/SFDA_neighbors) | FA |
+| 78 | Source-free Domain Adaptation via Avatar Prototype Generation and Adaptation (CPGA) | 2021 | IJCAI | [Code](https://github.com/SCUT-AILab/CPGA) | FAR |
+| 79 | Unsupervised Domain Adaptation of Black-Box Source Models (IterLNL) | 2021 | BMVC | [Code](https://github.com/zhjscut/IterLNL) | FA |
+| 80 | Domain Impression: A Source Data Free Domain Adaptation Method | 2021 | WACV | — | FAR |
+
+### 📙 Family 5 — Addendum: Semi-Supervised / Weakly-Supervised / Active DA
+*Per the Tie-Breaking Rule, supervision-regime papers are filed under their **primary adaptation mechanism**; these all rely on teacher–student / pseudo-label engines.*
+
+| # | Paper Title | Year | Published In | GitHub | Op. |
+|---|---|---|---|---|:---:|
+| 1 | Semi-Supervised Domain Adaptation With Source Label Adaptation | 2023 | CVPR | — | FA |
+| 2 | Multi-level Consistency Learning for Semi-supervised Domain Adaptation | 2022 | IJCAI | — | FA |
+| 3 | CLDA: Contrastive Learning for Semi-Supervised Domain Adaptation | 2021 | NeurIPS | — | FA |
+| 4 | ECACL: A Holistic Framework for Semi-Supervised Domain Adaptation | 2021 | ICCV | — | FA |
+| 5 | Cross-Domain Adaptive Clustering for Semi-Supervised Domain Adaptation | 2021 | CVPR | — | FA |
+| 6 | Semi-supervised Domain Adaptation based on Dual-level Domain Mixing for Semantic Segmentation | 2021 | CVPR | — | FAR |
+| 7 | Learning Invariant Representations and Risks for Semi-supervised Domain Adaptation | 2021 | CVPR | — | FA |
+| 8 | Improving Semi-Supervised Domain Adaptation Using Effective Target Selection and Semantics (STar) | 2021 | CVPR Workshop | [Code](https://github.com/Anurag14/STar-framework) | FA |
+| 9 | Attract, Perturb, and Explore: Learning a Feature Alignment Network for Semi-supervised Domain Adaptation | 2020 | ECCV | — | FA |
+| 10 | Bidirectional Adversarial Training for Semi-Supervised Domain Adaptation | 2020 | IJCAI | — | FA |
+| 11 | Semi-supervised Domain Adaptation via Minimax Entropy (MME) | 2019 | ICCV | [Code](https://github.com/VisionLearningGroup/SSDA_MME) | FA |
+| 12 | Context-guided Entropy Minimization for Semi-supervised Domain Adaptation (DEEM) | 2022 | Neural Networks | [Code](https://github.com/NingMa-AI/DEEM) | FA |
+| 13 | Pred&Guide: Labeled Target Class Prediction for Guiding Semi-Supervised Domain Adaptation | 2022 | arXiv | — | FA |
+| 14 | MiCo: Mixup Co-Training for Semi-Supervised Domain Adaptation | 2020 | arXiv | — | FAR |
+| 15 | Opposite Structure Learning for Semi-supervised Domain Adaptation | 2020 | arXiv | — | FA |
+| 16 | Semi-supervised Models are Strong Unsupervised Domain Adaptation Learners | 2021 | arXiv | [Code](https://github.com/YBZh/Bridging_UDA_SSL) | FA |
+| 17 | Label Propagation with Augmented Anchors: A Simple Semi-Supervised Learning Baseline for UDA | 2020 | ECCV | [Code](https://github.com/YBZh/Label-Propagation-with-Augmented-Anchors) | FA |
+| 18 | Towards Accurate and Robust Domain Adaptation under Noisy Environments | 2020 | IJCAI | — | FA |
+| 19 | Butterfly: Robust One-step Approach towards Wildly-unsupervised Domain Adaptation | 2019 | arXiv | — | FA |
+| 20 | Domain Adaptive Semantic Segmentation Using Weak Labels | 2020 | ECCV | — | FA |
+| 21 | Towards Fewer Annotations: Active Learning via Region Impurity and Prediction Uncertainty (RIPU) | 2022 | CVPR | [Code](https://github.com/BIT-DA/RIPU) | FA |
+| 22 | Active Learning for Domain Adaptation: An Energy-based Approach (EADA) | 2022 | AAAI | [Code](https://github.com/BIT-DA/EADA) | FA |
+| 23 | Local Context-Aware Active Domain Adaptation (LADA) | 2023 | ICCV | [Code](https://github.com/tsun/LADA) | FA |
+| 24 | Reducing Annotation Effort by Identifying and Labeling Contextually Diverse Classes under Domain Shift | 2023 | WACV | — | FA |
+| 25 | Multi-Anchor Active Domain Adaptation for Semantic Segmentation | 2021 | ICCV | — | FA |
+| 26 | Active Domain Adaptation via Clustering Uncertainty-Weighted Embeddings | 2021 | ICCV | — | FA |
+| 27 | S3VAADA: Submodular Subset Selection for Virtual Adversarial Active Domain Adaptation | 2021 | ICCV | — | FA |
+| 28 | Transferable Query Selection for Active Domain Adaptation | 2021 | CVPR | — | FA |
+| 29 | LabOR: Labeling Only if Required for Domain Adaptive Semantic Segmentation | 2021 | ICCV | — | FA |
+
+
+## 📕 Family 6 — VLM / Foundation-Model based
+*Methods whose core mechanism relies on large pre-trained vision-language models (CLIP, GLIP), prompt/adapter tuning, or distillation from foundation models.*
+
+| # | Paper Title | Year | Published In | GitHub | Op. |
+|---|---|---|---|---|:---:|
+| 1 | Domain adaptive object detection via CLIP-space guidance and LoRA fine-tuning | 2026 | Expert Systems with Applications | — | FA |
+| 2 | Large Self-Supervised Models Bridge the Gap in Domain Adaptive Object Detection | 2025 | arXiv | — | FA |
+| 3 | Controllable Prompt Tuning For Balancing Group Distributional Robustness | 2024 | ICML | [Code](https://github.com/VietHoang1512/CPT) | FA |
+| 4 | Enhancing Domain Adaptation through Prompt Gradient Alignment | 2024 | NeurIPS | [Code](https://github.com/VietHoang1512/PGA) | FA |
+| 5 | Adapting to Distribution Shift by Visual Domain Prompt Generation (VDPG) | 2024 | ICLR | [Code](https://github.com/Guliisgreat/VDPG) | FA |
+| 6 | TransAdapter: Vision Transformer for Feature-Centric Unsupervised Domain Adaptation | 2024 | arXiv | [Code](https://github.com/enesdoruk/TransAdapter) | FA |
+| 7 | VLDadaptor: Domain Adaptive Object Detection With Vision-Language Model Distillation | 2024 | IEEE TMM | — | FA |
+| 8 | Empowering Unsupervised Domain Adaptation with Large-scale Pre-trained Vision-Language Models | 2024 | WACV | — | FA |
+| 9 | DA-Ada: Learning Domain-Aware Adapter for Domain Adaptive Object Detection | 2024 | arXiv | — | FA |
+| 10 | Zero-shot Generalizable Incremental Learning for Vision-Language Object Detection | 2024 | arXiv | — | FA |
+| 11 | PromptStyler: Prompt-driven Style Generation for Source-free Domain Generalization | 2023 | ICCV | [Project](https://promptstyler.github.io/) | FAR |
+| 12 | POUF: Prompt-oriented Unsupervised Fine-tuning for Large Pre-trained Models | 2023 | ICML | [Code](https://github.com/korawat-tanwisuth/POUF) | FA |
+| 13 | Learning Domain-Aware Detection Head with Prompt Tuning | 2023 | NeurIPS | — | FA |
+| 14 | A Re-Parameterized Vision Transformer (ReVT) for Domain-Generalized Semantic Segmentation | 2023 | ICCV Workshop | [Code](https://github.com/ifnspaml/revt-domain-generalization) | FA |
+| 15 | Semi-Supervised Domain Generalization for Object Detection via Language-Guided Feature Alignment | 2023 | arXiv | — | FA |
+| 16 | Grounded Language-Image Pre-training (GLIP) | 2022 | CVPR | — | — (foundation) |
+| 17 | Learning Transferable Visual Models From Natural Language Supervision (CLIP) | 2021 | ICML | — | — (foundation) |
+| 18 | Zero-Shot Deep Domain Adaptation | 2018 | ECCV | — | FT |
+
+## 📕 Family 6 — Addendum: Zero-Shot / One-Shot / Few-Shot DA
+*Methods whose core contribution is adapting under extreme supervision scarcity (zero, one, or few labeled target/source examples). Filed under VLM/Foundation per the Tie-Breaking Rule when the mechanism is VLM-driven; otherwise listed as a separate sub-family.*
+
+| # | Paper Title | Year | Published In | GitHub | Op. |
+|---|---|---|---|---|:---:|
+| 1 | Prototypical Cross-domain Self-supervised Learning for Few-shot Unsupervised Domain Adaptation (PCS-FUDA) | 2021 | CVPR | [Code](https://github.com/zhengzangw/PCS-FUDA) | FA |
+| 2 | Collaborative Learning With Disentangled Features for Zero-Shot Domain Adaptation | 2021 | ICCV | — | FAR |
+| 3 | Zero-Shot Day-Night Domain Adaptation with a Physics Prior | 2021 | ICCV | — | FAR |
+| 4 | Domain-Adaptive Few-Shot Learning (DAPN) | 2021 | WACV | [Code](https://github.com/dingmyu/DAPN) | FA |
+| 5 | One-Shot Unsupervised Cross-Domain Detection | 2020 | ECCV | — | FA |
+| 6 | High Resolution Zero-Shot Domain Adaptation of Synthetically Rendered Face Images | 2020 | ECCV | — | FAR |
+| 7 | Adversarial Learning for Zero-shot Domain Adaptation | 2020 | ECCV | — | FAR |
+| 8 | HGNet: Hybrid Generative Network for Zero-shot Domain Adaptation | 2020 | ECCV | — | FAR |
+| 9 | Few-shot Domain Adaptation by Causal Mechanism Transfer | 2020 | ICML | [Code](https://github.com/takeshi-teshima/few-shot-domain-adaptation-by-causal-mechanism-transfer) | FT |
+| 10 | Cross-domain Self-supervised Learning for Domain Adaptation with Few Source Labels | 2020 | arXiv | — | FA |
+| 11 | A Broader Study of Cross-Domain Few-Shot Learning | 2020 | ECCV | — | FA |
+| 12 | Cross-Domain Few-Shot Classification via Learned Feature-Wise Transformation | 2020 | ICLR | — | FT |
+| 13 | Feature transformation ensemble model with batch spectral regularization for cross-domain few-shot classification | 2020 | arXiv | [Code](https://github.com/liubingyuu/FTEM_BSR_CDFSL) | FT |
+| 14 | Ensemble model with batch spectral regularization and data blending for cross-domain few-shot learning | 2020 | arXiv | [Code](https://github.com/123zhen123/BSDB-CDFSL_Track) | FAR |
+| 15 | Adversarial Style Mining for One-Shot Unsupervised Domain Adaptation (ASM) | 2020 | NeurIPS | [Code](https://github.com/RoyalVane/ASM) | FAR |
+| 16 | One-Shot Imitation from Observing Humans via Domain-Adaptive Meta-Learning | 2018 | arXiv | — | FT |
+| 17 | One Shot Domain Adaptation for Person Re-Identification | 2018 | arXiv | — | FA |
+| 18 | Few-Shot Adaptive Faster R-CNN | 2019 | CVPR | — | FA |
+| 19 | d-SNE: Domain Adaptation using Stochastic Neighborhood Embedding | 2019 | CVPR (Oral) | — | FA |
+| 20 | Zero-shot Domain Adaptation Based on Attribute Information | 2019 | ACML | — | FA |
+| 21 | Conditional Coupled Generative Adversarial Networks for Zero-Shot Domain Adaptation | 2019 | ICCV | — | FAR |
+| 22 | Few-Shot Adversarial Domain Adaptation | 2017 | NeurIPS | — | FA |
+| 23 | Generalized Zero-Shot Learning with Deep Calibration Network | 2018 | NeurIPS | — | FA |
+| 24 | One-Shot Adaptation of Supervised Deep Convolutional Models | 2014 | ICLR Workshop | — | FA |
