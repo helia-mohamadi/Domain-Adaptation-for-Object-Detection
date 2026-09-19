@@ -61,3 +61,64 @@ This table categorizes each domain adaptation paper into its core methodology, a
 | **VLM Based** | Semi-Supervised Domain Generalization for Object Detection via Language-Guided Feature Alignment | 2023 | Malakouti, S. & Kovashka, A. |
 
 ---
+
+
+
+
+## 📅 Chronological Paper List (Sorted by Year)
+
+For researchers looking to trace the evolution of domain adaptation in object detection, this table presents the curated list of papers sorted chronologically from the most recent publications back to the foundational architectures.
+
+| Year | ArticleTitle | Authors | Published In |
+| :--- | :--- | :--- | :--- |
+| **2026** | Domain adaptive object detection via CLIP-space guidance and LoRA fine-tuning | Qi, E. et al. | Expert Systems with Applications |
+| **2026** | Domain Adaptive Object Detection via Dual-Stream Bilevel-Cycle Optimization | Chen, Y. et al. | arXiv |
+| **2026** | Expert-Teacher-Student Collaborative Learning for Domain Adaptive Object Detection | Cui, Y. et al. | CVPR |
+| **2026** | Prototype-oriented contrastive mean-teacher for unsupervised domain adaptive object detection | Cao, Q. et al. | Scientific Reports |
+| **2025** | Attention-Based Class-Conditioned Alignment for Multi-Source Domain Adaptation of Object Detectors | Belal, A. et al. | WACV |
+| **2025** | DATR: Unsupervised Domain Adaptive Detection Transformer With Dataset-Level Adaptation and Prototypical Alignment | Chen, L. et al. | IEEE Transactions on Image Processing |
+| **2025** | Differential Alignment for Domain Adaptive Object Detection | He, X. et al. | AAAI |
+| **2025** | Domain-Invariant Progressive Knowledge Distillation for UAV-Based Object Detection | Yao, L. et al. | IEEE Geoscience and Remote Sensing Letters |
+| **2025** | Ensemble of Experts for Multi-Source Unsupervised Domain Adaptation in 3D Object Detection | IEEE (MS3D++) | IEEE Journals & Magazine |
+| **2025** | RT-DATR: Real-time Unsupervised Domain Adaptive Detection Transformer with Adversarial Feature Learning | Lv, F. et al. | arXiv |
+| **2025** | Scale-Consistent and Temporally Ensembled Unsupervised Domain Adaptation for Object Detection | Guo, L. et al. | Sensors |
+| **2024** | CMDA: Cross-Modal and Domain Adversarial Adaptation for LiDAR-Based 3D Object Detection | Chang, G. et al. | AAAI |
+| **2024** | Collaborative Learning for Multi-Source Domain Adaptative Object Detection | Cheng, Y. | NNICE |
+| **2024** | DANE: A Dual-Level Alignment Network With Ensemble Learning for Multisource Domain Adaptation | Yang, Y. et al. | IEEE Transactions on Instrumentation and Measurement |
+| **2024** | Diverse Feature-Level Guidance Adjustments for Unsupervised Domain Adaptative Object Detection | Zhu, Y. et al. | Applied Sciences |
+| **2024** | Domain Adaptation for Large-Vocabulary Object Detectors | Jiang, K. et al. | arXiv |
+| **2024** | Empowering Unsupervised Domain Adaptation with Large-scale Pre-trained Vision-Language Models | Lai, Z. et al. | WACV |
+| **2024** | JFDI: Joint Feature Differentiation and Interaction for domain adaptive object detection | Qiao, Z. et al. | Neural Networks |
+| **2024** | Mean teacher DETR with masked feature alignment: a robust domain adaptive detection transformer framework | Weng, W. & Yuan, C. | AAAI |
+| **2024** | Multi-Source Domain Adaptation for Object Detection with Prototype-based Mean Teacher | Belal, A. et al. | WACV |
+| **2024** | Robust Domain Adaptive Object Detection With Unified Multi-Granularity Alignment | Zhang, L. et al. | IEEE TPAMI |
+| **2024** | Towards Discriminability with Distribution Discrepancy Constrains for Multisource Domain Adaptation | Lu, Y. & Huang, W. | Mathematics |
+| **2024** | Unsupervised Domain-Adaptive Object Detection via Localization Regression Alignment | Piao, Z. et al. | IEEE TNNLS |
+| **2024** | VLDadaptor: Domain Adaptive Object Detection With Vision-Language Model Distillation | Ke, J. et al. | IEEE Transactions on Multimedia |
+| **2023** | CoNMix for Source-free Single and Multi-target Domain Adaptation | Kumar, V. et al. | WACV |
+| **2023** | Contrastive Mean Teacher for Domain Adaptive Object Detectors | Cao, S. et al. | CVPR |
+| **2023** | DaFKD: Domain-aware Federated Knowledge Distillation | Wang, H. et al. | CVPR |
+| **2023** | Decompose to Adapt: Cross-Domain Object Detection Via Feature Disentanglement | Liu, D. et al. | IEEE Transactions on Multimedia |
+| **2023** | Disentangled Discriminator for Unsupervised Domain Adaptation on Object Detection | Zhu, Y. et al. | IROS |
+| **2023** | Instance Relation Graph Guided Source-Free Domain Adaptive Object Detection | VS, V. et al. | CVPR |
+| **2023** | Learning Domain-Aware Detection Head with Prompt Tuning | Li, H. et al. | NeurIPS |
+| **2023** | Masked Retraining Teacher-Student Framework for Domain Adaptive Object Detection | Zhao, Z. et al. | ICCV |
+| **2023** | MIC: Masked Image Consistency for Context-Enhanced Domain Adaptation | Hoyer, L. et al. | CVPR |
+| **2023** | Semi-Supervised Domain Generalization for Object Detection via Language-Guided Feature Alignment | Malakouti, S. & Kovashka, A. | arXiv |
+| **2022** | C2FDA: Coarse-to-Fine Domain Adaptation for Traffic Object Detection | Zhang, H. et al. | IEEE Transactions on Intelligent Transportation Systems |
+| **2022** | Exploring Sequence Feature Alignment for Domain Adaptive Detection Transformers | Wang, W. et al. | arXiv |
+| **2022** | Incremental multi-target domain adaptation for object detection with efficient domain transfer | Nguyen-Meidine, L.T. et al. | Pattern Recognition |
+| **2022** | RFA-Net: Reconstructed Feature Alignment Network for Domain Adaptation Object Detection... | Zhu, Y. et al. | IEEE JSTARS |
+| **2021** | SimROD: A Simple Adaptation Method for Robust Object Detection | Ramamonjison, R. et al. | ICCV |
+| **2021** | ST3D: Self-training for Unsupervised Domain Adaptation on 3D Object Detection | Yang, J. et al. | CVPR |
+| **2020** | Cross-domain Object Detection through Coarse-to-Fine Feature Adaptation | Zheng, Y. et al. | CVPR |
+| **2020** | Exploring Categorical Regularization for Domain Adaptive Object Detection | Xu, C.-D. et al. | CVPR |
+| **2020** | Progressive Domain Adaptation for Object Detection | Hsu, H.-K. et al. | WACV |
+| **2019** | A Robust Learning Approach to Domain Adaptive Object Detection | Khodabandeh, M. et al. | ICCV |
+| **2019** | Adapting Object Detectors via Selective Cross-Domain Alignment | Zhu, X. et al. | CVPR |
+| **2019** | Automatic Adaptation of Object Detectors to New Domains Using Self-Training | RoyChowdhury, A. et al. | CVPR |
+| **2019** | Moment Matching for Multi-Source Domain Adaptation | Peng, X. et al. | ICCV |
+| **2019** | Semi-Supervised Domain Adaptation via Minimax Entropy | Saito, K. et al. | ICCV |
+| **2018** | Cross-Domain Weakly-Supervised Object Detection Through Progressive Domain Adaptation | Inoue, N. et al. | CVPR |
+| **2018** | Domain Adaptive Faster R-CNN for Object Detection in the Wild | Chen, Y. et al. | arXiv |
+| **2017** | Adversarial Discriminative Domain Adaptation | Tzeng, E. et al. | CVPR |
