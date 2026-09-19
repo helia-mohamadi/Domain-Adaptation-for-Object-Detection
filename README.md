@@ -551,3 +551,108 @@ Every paper is **additionally** tagged with one operational mechanism (column `O
 | 22 | Few-Shot Adversarial Domain Adaptation | 2017 | NeurIPS | — | FA |
 | 23 | Generalized Zero-Shot Learning with Deep Calibration Network | 2018 | NeurIPS | — | FA |
 | 24 | One-Shot Adaptation of Supervised Deep Convolutional Models | 2014 | ICLR Workshop | — | FA |
+
+
+## 📊 Cross-Reference: Operational Mechanisms by Family
+*This table summarizes the distribution of operational mechanisms (FA / FAR / FT) across the six methodological families, demonstrating the rigor of our classification rules.*
+
+| Methodological Family | FA (Alignment) | FAR (Augmentation / Reconstruction) | FT (Transformation) | Total |
+|---|:---:|:---:|:---:|:---:|
+| **1. Discrepancy-based** | 125 | 12 | 18 | **155** |
+| **2. Adversarial-based** | 88 | 32 | 0 | **120** |
+| **3. Multi-Domain based** | 58 | 2 | 0 | **60** |
+| **4. Ensemble-Based** | 21 | 2 | 1 | **24** |
+| **5. Teacher-Student based** | 95 | 10 | 0 | **105** |
+| **6. VLM / Foundation based** | 22 | 1 | 1 | **24** |
+| **Total DA Papers** | **409** | **59** | **20** | **488** |
+
+---
+
+## 📖 Appendix A: Applications, Datasets & Benchmarks
+*Papers related to specific applications, foundational Object Detection architectures, standard datasets, and benchmarks that provide the necessary background for DA research. This includes the general background papers from our review.*
+
+| # | Paper / Resource Title | Year | Type | Published In |
+|---|---|---|---|---|
+| 1 | Real-Time Diabetic Retinopathy Detection Using YOLO-v10 | 2025 | Application | Biomedical Materials & Devices |
+| 2 | A Comprehensive Survey of Machine Learning Techniques for Object Detection | 2025 | Survey | Sensors |
+| 3 | A survey on domain adaptive object detection | 2025 | Survey | The Computer Journal |
+| 4 | Emerging Trends in Autonomous Vehicle Perception: Multimodal Fusion for 3D | 2024 | Survey | World Electric Vehicle Journal |
+| 5 | Concept drift adaptation with continuous kernel learning | 2024 | Concept Drift | Information Sciences |
+| 6 | Unsupervised Domain Adaptation of Object Detectors: A Survey | 2024 | Survey | IEEE TPAMI |
+| 7 | A Survey on Object Detection in Dynamic and Complex Environments | 2024 | Survey | IJTM |
+| 8 | Object Detection with Transformers: A Review | 2023 | Survey | arXiv |
+| 9 | Domain Adaptation: Challenges, Methods, Datasets, and Applications | 2023 | Survey | IEEE Access |
+| 10 | Object Detection in 20 Years: A Survey | 2023 | Survey | Proceedings of the IEEE |
+| 11 | The Eyes of the Gods: A Survey of UDA Methods Based on Remote Sensing | 2022 | Survey | Remote Sensing |
+| 12 | Kurcuma: A kitchen utensil recognition collection for UDA | 2023 | Benchmark | PAA |
+| 13 | Meta Self-Learning for Multi-Source Domain Adaptation: A Benchmark | 2021 | Benchmark | ICCV Workshop |
+| 14 | LLVIP: A Visible-infrared Paired Dataset for Low-light Vision | 2021 | Dataset | ICCV Workshop |
+| 15 | Benchmarking Neural Network Robustness to Common Corruptions (ImageNet-C) | 2019 | Benchmark | ICLR |
+| 16 | Syn2Real: A New Benchmark for Synthetic-to-Real Visual Domain Adaptation | 2018 | Dataset | CVPR |
+| 17 | KITTI-360: A Novel Dataset and Benchmarks for Urban Scene Understanding | 2022 | Dataset | Preprint |
+| 18 | BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning | 2020 | Dataset | CVPR |
+| 19 | The Cityscapes Dataset for Semantic Urban Scene Understanding | 2016 | Dataset | CVPR |
+| 20 | Microsoft COCO: Common Objects in Context | 2014 | Dataset | ECCV |
+| 21 | The SYNTHIA Dataset: A Large Collection of Synthetic Images | 2016 | Dataset | CVPR |
+| 22 | YouTube-BoundingBoxes: A Large High-Precision Human-Annotated Data Set | 2017 | Dataset | CVPR |
+| 23 | ImageNet Classification with Deep Convolutional Neural Networks (AlexNet) | 2012 | Foundation | NeurIPS |
+| 24 | Deep Residual Learning for Image Recognition (ResNet) | 2016 | Foundation | CVPR |
+| 25 | You Only Look Once: Unified, Real-Time Object Detection (YOLO) | 2016 | Foundation | CVPR |
+| 26 | SSD: Single Shot MultiBox Detector | 2016 | Foundation | ECCV |
+| 27 | Faster R-CNN: Towards Real-Time Object Detection with RPN | 2017 | Foundation | IEEE TPAMI |
+| 28 | Fast R-CNN | 2015 | Foundation | ICCV |
+| 29 | Rich Feature Hierarchies for Accurate Object Detection (R-CNN) | 2014 | Foundation | CVPR |
+| 30 | Feature Pyramid Networks for Object Detection (FPN) | 2017 | Foundation | CVPR |
+| 31 | Focal Loss for Dense Object Detection (RetinaNet) | 2020 | Foundation | IEEE TPAMI |
+| 32 | End-to-End Object Detection with Transformers (DETR) | 2020 | Foundation | ECCV |
+| 33 | Deformable DETR: Deformable Transformers for End-to-End Object Detection | 2021 | Foundation | ICLR |
+| 34 | Learning Transferable Visual Models From Natural Language Supervision (CLIP) | 2021 | Foundation | ICML |
+| 35 | Grounded Language-Image Pre-training (GLIP) | 2022 | Foundation | CVPR |
+| 36 | Generative Adversarial Nets (GANs) | 2014 | Foundation | NeurIPS |
+
+---
+
+## 📅 Appendix B: Chronological Timeline of DA Evolution
+*A high-level view of the evolution of Domain Adaptation techniques in Object Detection and Computer Vision.*
+
+| Year | Key Milestones & Paradigm Shifts |
+|---|---|
+| **2025-2026** | 🚀 **The VLM & Diffusion Era:** CLIP-space guidance, LoRA fine-tuning, Diffusion-based blending (BlenDA), and Dataset-Level Prototypical Alignment (DATR). |
+| **2023-2024** | 🎯 **Transformer & Source-Free DA:** DA-DETR, Mean-Teacher DETR, Prompt Tuning for DA, Source-Free Object Detection (IRG-SFDA, CoNMix), and Multi-Granularity Alignment. |
+| **2021-2022** | 🌐 **Multi-Source & Self-Training:** SHOT (Source Hypothesis Transfer), DAFormer (Semantic Seg), ST3D (3D Detection), Optimal Transport (JUMBOT), and Meta-Learning for Multi-Source DA. |
+| **2019-2020** | ⚔️ **Adversarial & Curriculum Learning:** CDAN, MCD, ADVENT, CyCADA, Curriculum Self-Paced Learning, and the rise of Partial/Open-Set DA (PADA, OSBP). |
+| **2017-2018** | 📏 **Distance & Moment Matching:** ADDA, DANN, Deep CORAL, JAN, CycleGAN for pixel-level DA, and the introduction of Optimal Transport (JDOT, DeepJDOT). |
+| **2015-2016** | 🏗️ **The Foundation Era:** DANN (Domain-Adversarial Training), DAN (Deep Adaptation Networks), DDC, and the release of foundational OD architectures (Faster R-CNN, YOLO, SSD). |
+| **2014 & Earlier** | 📚 **Theory & Kernel Methods:** MMD (A Kernel Method for the Two-Sample-Problem), theoretical bounds for DA, and early manifold alignment techniques. |
+
+---
+
+## 🛠️ Recommended Libraries & Toolboxes
+*For reproducible research, we recommend the following open-source libraries:*
+
+- **[Transfer-Learning-Library (THUML)](https://github.com/thuml/Transfer-Learning-Library):** A comprehensive PyTorch library for Deep Transfer Learning and DA.
+- **[salad](https://domainadaptation.org/):** A Semi-supervised Adaptive Learning Across Domains toolbox.
+- **[Dassl.pytorch](https://github.com/KaiyangZhou/Dassl.pytorch):** A PyTorch toolbox for Domain Adaptation, Domain Generalization, and Semi-Supervised Learning.
+- **[joliGEN](https://github.com/jolibrain/joliGEN):** An integrated framework for training custom generative AI image-to-image models (useful for FAR-based DA).
+
+---
+
+## 📜 Citation
+
+If you find this repository and our proposed **Hierarchical Dual-Axis Taxonomy** useful for your research, please cite our review paper:
+
+```bibtex
+@article{YourReviewPaper2026,
+  title={Domain Adaptation in Object Detection: A Hierarchical Dual-Axis Taxonomy and Comprehensive Review},
+  author={Your Name and Co-Authors},
+  journal={Journal/Conference Name},
+  year={2026}
+}
+```
+
+---
+
+<p align="center">
+  <i>Maintained with ❤️ for the Computer Vision and Domain Adaptation research community.</i><br>
+  <i>Last updated: September 2026</i>
+</p>
